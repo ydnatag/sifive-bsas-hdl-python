@@ -6,7 +6,7 @@ In this repository is the material presented at [SiFive Tech symposium BsAs 2019
 
 ```console
 pip3 install -r requirements.txt
-python3 adder/adder.py generate # Generate Verilog
+python3 -m adder.adder generate # Generate Verilog
 python3 -m pytest adder # Run test 
 python3 -m pytest -s adder # Run test with live stdout
 ```
